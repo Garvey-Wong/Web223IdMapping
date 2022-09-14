@@ -28,7 +28,7 @@ export default class ConfluxFluent extends PureComponent {
           连接中...
         </Button>
       )
-    } else {
+    } else if (this.props.status === FLUENT_STATE_DISCONNECTED){
       return (
         <Button type="primary" onClick={this.connectConfluxFluent}>
           请连接钱包

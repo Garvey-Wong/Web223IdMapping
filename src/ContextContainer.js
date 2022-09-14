@@ -1,4 +1,4 @@
-import { BrowserRouter, Switch, Route, } from "react-router-dom";
+import { BrowserRouter, Route, } from "react-router-dom";
 import React, { Component } from "react";
 import ConfluxFluent from "./components/ConfluxFluent";
 import Home from "./views/Home/Home";
